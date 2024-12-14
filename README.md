@@ -3,10 +3,13 @@
 PropMartix_Real_Estate_Market_Analysis
 
 ##Team Members
-Abijay (Ku2407u084)
-Jainil  (Ku2407u084)
-Melbourne Housing Data Analysis
+Abijay (KU2407U004)
+Jainil (KU2407U084)
+Tushar (KU2407U223)
+Nigam  (KU2407U148)
+Bhavya (KU2407U034)
 
+Melbourne Housing Data Analysis:
 This project performs data analysis and prediction on the Melbourne Housing Synthetic dataset. The project includes data preprocessing, model training, evaluation, and visualization of insights.
 
 Project Overview
