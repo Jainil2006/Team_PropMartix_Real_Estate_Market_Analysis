@@ -3,11 +3,11 @@
 PropMartix_Real_Estate_Market_Analysis
 
 ## Team Members
-Abijay (Ku2407u005)
-Jainil (Ku2407u084)
-Nigam  (Ku2407u0148)
-Tushar (Ku2408u223)
-Bhavya (Ku2407u034)
+1. Abijay (Ku2407u005)
+2. Jainil (Ku2407u084)
+3. Nigam  (Ku2407u0148)
+4. Tushar (Ku2408u223)
+5. Bhavya (Ku2407u034)
 
 
 ## Overview
