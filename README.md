@@ -15,26 +15,17 @@ This project analyzes Melbourne housing data to predict property prices and visu
 
 ## Table Of Content
 
-1. Overview  
-2. Project Steps
-   1. Importing Libraries and Loading Data
-   2. Data Preprocessing
-   3. Splitting the Data
-   4. Model Training and Evaluation
-   5. Visualization
-     a. Pie Chart: Property Types Distribution
-     b. Histogram: Price Distribution
-     c. Heatmap: Correlation Matrix
-     d. Line Graph: Price Trends Over Time
-3. Prerequisites 
-   - Libraries  
-   - Dataset
-4. Usage  
-5. Output
-   - Evaluation Metrics
-   - Visualizations
-6. Notes
-7. License
+1. Overview
+2. Required Labaries
+3. How to use
+4. CSV Requirements
+5. Data Preprocessing
+6. Error Handling
+7. Visualizations
+8. Output Examples
+9. Future Enchaments
+10. Authors
+
    
 ## Required Libaries 
 
@@ -78,6 +69,14 @@ This project analyzes Melbourne housing data to predict property prices and visu
   - Use numeric features and encoded categorical features for training.
 4. Split Data:
   - Divide the data into 80% training and 20% testing sets.
+  ## Error Handling
+1. Missing Columns:
+  - If essential columns like Price are missing, the script will notify and exit.
+  - Optional columns like Date will prompt a message if unavailable but won’t stop execution.
+2. Invalid Values:
+-  Non-numeric values in numeric columns will trigger an error message.
+3. Empty Dataset:
+  - The script will check if the dataset has rows after preprocessing. If not, it will stop execution with an appropriate message.
 ## Visualizations
 1. Pie Chart: Distribution of property types (e.g., house, apartment).
 2. Histogram: Frequency of property prices across ranges.
@@ -91,14 +90,7 @@ This project analyzes Melbourne housing data to predict property prices and visu
 ### Visualizations:
 1. Pie chart showing property types like House: 60%, Apartment: 30%, Unit: 10%.
 2. Histogram showing price distribution, e.g., peak frequency around $500,000–$700,000.
-## Error Handling
-1. Missing Columns:
-  - If essential columns like Price are missing, the script will notify and exit.
-  - Optional columns like Date will prompt a message if unavailable but won’t stop execution.
-2. Invalid Values:
--  Non-numeric values in numeric columns will trigger an error message.
-3. Empty Dataset:
-  - The script will check if the dataset has rows after preprocessing. If not, it will stop execution with an appropriate message.
+
 ## Future Enhancements
 1. Support for Additional Models:
   - Include advanced models like Random Forest or Gradient Boosting for better predictions.
